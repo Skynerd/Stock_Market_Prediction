@@ -1,6 +1,6 @@
 # Stock Price Prediction with LSTM and Moving Averages
 
-This project demonstrates how to predict stock prices using a Long Short-Term Memory (LSTM) model trained on historical stock data. The model predicts future prices based on the last 60 days of stock prices. It also provides buy/sell signals based on moving averages.
+This project demonstrates how to predict stock prices using a Long Short-Term Memory (LSTM) model trained on historical stock data. The model predicts future prices based on the last 60 days of stock prices. It also provides buy/sell signals based on moving averages and predicted prices.
 
 ## Features
 
@@ -26,11 +26,11 @@ This project demonstrates how to predict stock prices using a Long Short-Term Me
 
 To run this project, you'll need the following Python libraries:
 
-- `tensorflow`
-- `pandas`
-- `numpy`
-- `scikit-learn`
-- `matplotlib`
+- `tensorflow 2.15.0`
+- `pandas 2.2.2`
+- `numpy 1.26.2`
+- `scikit-learn 1.4.2`
+- `matplotlib 3.8.1`
 
 You can install the required libraries using:
 
