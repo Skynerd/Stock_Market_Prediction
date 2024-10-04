@@ -71,8 +71,8 @@ python predict_stock_prices.py
 ## Buy/Sell Strategy
 
 The function `BuyOrSell` suggests whether to buy or sell based on:
-- **Last Day’s Price vs. 5-Day Moving Average**: If the last price is below the 5-day MA, it signals to **BUY**, otherwise **SELL**.
-- **Last Day’s Price vs. 10-Day Moving Average**: If the last price is below the 10-day MA, it signals to **BUY**, otherwise **SELL**.
+- **Last Day’s Price vs. 5-Day Moving Average**: If the last price is below the 5-day MA predicted price, it signals to **BUY**, otherwise **SELL**.
+- **Last Day’s Price vs. 10-Day Moving Average**: If the last price is below the 10-day MA predicted price, it signals to **BUY**, otherwise **SELL**.
 - **Default Comparison**: Without considering any moving averages, it compares the last price with the predicted price.
 
 ## Example Output
